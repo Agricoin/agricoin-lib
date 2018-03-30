@@ -6,14 +6,14 @@ var bitcore = module.exports;
 bitcore.version = 'v' + require('./package.json').version;
 bitcore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of htmlcoin-lib found. ' +
-      'Please make sure to require htmlcoin-lib and check that submodules do' +
-      ' not also include their own htmlcoin-lib dependency.';
+    var message = 'More than one instance of agricoin-lib found. ' +
+      'Please make sure to require agricoin-lib and check that submodules do' +
+      ' not also include their own agricoin-lib dependency.';
     console.log(message);
   }
 };
-bitcore.versionGuard(global._htmlcoincore);
-global._htmlcoincore = bitcore.version;
+bitcore.versionGuard(global._agricoincore);
+global._agricoincore = bitcore.version;
 
 // crypto
 bitcore.crypto = {};

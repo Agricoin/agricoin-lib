@@ -7,8 +7,8 @@ An instance of a [PrivateKey](privatekey.md) that also contains information requ
 Sample usage:
 
 ```javascript
-var htmlcoincore = require('htmlcoincore');
-var HDPrivateKey = htmlcoincore.HDPrivateKey;
+var agricoincore = require('agricoincore');
+var HDPrivateKey = agricoincore.HDPrivateKey;
 
 var hdPrivateKey = new HDPrivateKey();
 var retrieved = new HDPrivateKey('xpriv...');

@@ -1,22 +1,22 @@
-HTMLCOIN Bitcore Library
+Agricoin Bitcore Library
 =======
 
-A pure and powerful JavaScript HTMLCOIN library.
+A pure and powerful JavaScript Agricoin library.
 
 
 ## Get Started
 
 ```
-npm install htmlcoin-lib
+npm install agricoin-lib
 ```
 
 ```
-bower install htmlcoin-lib
+bower install agricoin-lib
 ```
 
 ## Security
 
-We're using htmlcoin-lib in production, but please use common sense when doing anything related to finances! We take no responsibility for your implementation decisions.
+We're using agricoin-lib in production, but please use common sense when doing anything related to finances! We take no responsibility for your implementation decisions.
 
 
 
@@ -26,19 +26,19 @@ Please send pull requests for bug fixes, code optimization, and ideas for improv
 
 ## Building the Browser Bundle
 
-To build a htmlcoin-lib full bundle for the browser:
+To build a agricoin-lib full bundle for the browser:
 
 ```sh
 gulp browser
 ```
 
-This will generate files named `htmlcoin-lib.js` and `htmlcoin-lib.min.js`.
+This will generate files named `agricoin-lib.js` and `agricoin-lib.min.js`.
 
 ## Development & Tests
 
 ```sh
-git clone https://github.com/HTMLCOIN/htmlcoin-lib
-cd htmlcoin-lib
+git clone https://github.com/Agricoin/agricoin-lib
+cd agricoin-lib
 npm install
 ```
 

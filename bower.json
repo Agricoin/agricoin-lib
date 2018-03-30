@@ -1,17 +1,17 @@
 {
-  "name": "htmlcoin-lib",
-  "main": "./htmlcoin-lib.min.js",
+  "name": "agricoin-lib",
+  "main": "./agricoin-lib.min.js",
   "version": "0.0.1",
-  "homepage": "http://htmlcoin.com",
+  "homepage": "http://agricoin.com",
   "authors": [
-    "HTMLCOIN <support@htmlcoin.com>"
+    "Agricoin <support@agricoin.com>"
   ],
-  "description": "A pure, powerful core for your HTMLCOIN project.",
+  "description": "A pure, powerful core for your Agricoin project.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "htmlcoin",
+    "agricoin",
     "bitcoin",
     "bitcore",
     "btc",

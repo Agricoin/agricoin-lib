@@ -53125,7 +53125,7 @@ arguments[4][119][0].apply(exports,arguments)
      * Backticks are escaped because in Internet Explorer < 9, they can break out
      * of attribute values or HTML comments. See [#59](https://html5sec.org/#59),
      * [#102](https://html5sec.org/#102), [#108](https://html5sec.org/#108), and
-     * [#133](https://html5sec.org/#133) of the [HTMLCOIN Security Cheatsheet](https://html5sec.org/)
+     * [#133](https://html5sec.org/#133) of the [Agricoin Security Cheatsheet](https://html5sec.org/)
      * for more details.
      *
      * When working with HTML you should always [quote attribute values](http://wonko.com/post/html-escaping)
@@ -55168,7 +55168,7 @@ arguments[4][119][0].apply(exports,arguments)
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{}],360:[function(require,module,exports){
 module.exports={
-  "name": "htmlcoin-lib",
+  "name": "agricoin-lib",
   "version": "0.0.1",
   "description": "A pure and powerful JavaScript Bitcoin library.",
   "author": "BitPay <dev@bitpay.com>",
@@ -55243,7 +55243,7 @@ module.exports={
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/HTMLCOIN/htmlcoin-lib.git"
+    "url": "https://github.com/Agricoin/agricoin-lib.git"
   },
   "browser": {
     "request": "browser-request"
@@ -55266,7 +55266,7 @@ module.exports={
   "license": "MIT"
 }
 
-},{}],"htmlcoin-lib":[function(require,module,exports){
+},{}],"agricoin-lib":[function(require,module,exports){
 (function (global,Buffer){
 'use strict';
 
@@ -55276,14 +55276,14 @@ var bitcore = module.exports;
 bitcore.version = 'v' + require('./package.json').version;
 bitcore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of htmlcoin-lib found. ' +
-      'Please make sure to require htmlcoin-lib and check that submodules do' +
-      ' not also include their own htmlcoin-lib dependency.';
+    var message = 'More than one instance of agricoin-lib found. ' +
+      'Please make sure to require agricoin-lib and check that submodules do' +
+      ' not also include their own agricoin-lib dependency.';
     throw new Error(message);
   }
 };
-bitcore.versionGuard(global._htmlcoincore);
-global._htmlcoincore = bitcore.version;
+bitcore.versionGuard(global._agricoincore);
+global._agricoincore = bitcore.version;
 
 // crypto
 bitcore.crypto = {};
